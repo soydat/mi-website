@@ -1,0 +1,16 @@
+{
+  "name": "desafio-maquetado-inicial",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "git@github.com:soydat/mi-website.git",
+  "author": "soydat <francoalmeida400@gmail.com>",
+  "license": "MIT",
+ "scripts": {
+  "predeploy": "echo 'No build step needed'",
+  "deploy": "gh-pages -d ."
+}
+,
+  "devDependencies": {
+    "gh-pages": "^6.2.0"
+  }
+}
